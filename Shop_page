@@ -1,0 +1,53 @@
+<!-- wp:spacer {"height":"60px"} -->
+<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:heading {"textAlign":"center","className":"wp-block-heading"} -->
+<h2 class="wp-block-heading has-text-align-center">Discover pure, therapeutic-grade Essential Oils. Elevate wellness, nurture balance, and sustain your serenity with Minnies Essential Bliss.</h2>
+<!-- /wp:heading -->
+
+<!-- wp:spacer {"height":"40px"} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:image {"align":"center","id":135,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
+<figure class="wp-block-image aligncenter size-full is-style-default"><img src="http://minniesessentialbliss.com/wp-content/uploads/2023/07/2023-07-18-18.48.06.jpg" alt="" class="wp-image-135"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:spacer {"height":"40px"} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph {"textColor":"secondary"} -->
+<p class="has-secondary-color has-text-color">Connecting wellness seekers + nature's bounty in our serene, spa-like setting. Only a limited selection available in this sought-after sanctuary."</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"40px"} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"20%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:20%"></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%"><!-- wp:heading {"textAlign":"center","level":3,"align":"full","className":"wp-block-heading"} -->
+<h3 class="wp-block-heading alignfull has-text-align-center">Experience Aromatic Bliss + the Finest Essential Oils You've Ever Encountered</h3>
+<!-- /wp:heading --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:spacer {"height":"40px"} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:gallery {"linkTo":"none","align":"full"} -->
+<figure class="wp-block-gallery alignfull has-nested-images columns-default is-cropped"><!-- wp:image {"id":143,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="http://minniesessentialbliss.com/wp-content/uploads/2023/07/Untitled-design-1-1.png" alt="" class="wp-image-143"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":145,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="http://minniesessentialbliss.com/wp-content/uploads/2023/07/2023-07-26-18.12.24-2.jpg" alt="" class="wp-image-145"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
