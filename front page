@@ -1,0 +1,25 @@
+<!-- wp:image {"align":"full","id":123,"sizeSlug":"large","linkDestination":"none","className":"is-style-top-wave"} -->
+<figure class="wp-block-image alignfull size-large is-style-top-wave"><img src="http://minniesessentialbliss.com/wp-content/uploads/2023/07/1-2-1024x684.png" alt="" class="wp-image-123"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:gallery {"ids":[19,20],"linkTo":"none","align":"full","noTopMargin":true} -->
+<figure class="wp-block-gallery alignfull has-nested-images columns-default is-cropped mt-0"><!-- wp:image {"id":120,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="http://minniesessentialbliss.com/wp-content/uploads/2023/07/Embrace-Your-Blisss-1-1.png" alt="" class="wp-image-120"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":121,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="http://minniesessentialbliss.com/wp-content/uploads/2023/07/Untitled-design-6-1.png" alt="" class="wp-image-121"/></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:heading {"textAlign":"center","align":"full","textColor":"primary"} -->
+<h2 class="wp-block-heading alignfull has-text-align-center has-primary-color has-text-color">Welcome to Minnies Essential Bliss</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","backgroundColor":"quaternary","textColor":"secondary","className":"is-style-default"} -->
+<p class="has-text-align-center is-style-default has-secondary-color has-quaternary-background-color has-text-color has-background">Your gateway to holistic wellness. Discover the diverse uses of essential oils and how they can enhance day-to-day living for the better. We empower you with insights on integrating these natural wonders into your routine for improved health and balance. From immunity boosters to mood enhancers, explore the transformative power of essential oils with us. Begin your journey to a healthier, more vibrant life with Minnies Essential Bliss today!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"full","id":119,"sizeSlug":"large","linkDestination":"none","className":"is-style-top-wave"} -->
+<figure class="wp-block-image alignfull size-large is-style-top-wave"><img src="http://minniesessentialbliss.com/wp-content/uploads/2023/07/Welcome-To-Essential-Bliss-7-1-1024x684.png" alt="" class="wp-image-119"/></figure>
+<!-- /wp:image -->
