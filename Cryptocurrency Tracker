@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+<head>
+  <!-- Your head content here -->
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
+
+
+
+function App() {
+  return (
+    <div>
+      <div id="toolbar">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="https://www.doterra.com/US/en/shop">Shop</a></li>
+          <li><a href="Lifestyle.html">Lifestyle</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="Enrollnowforfree.html">Enroll For Free</a></li>
+        </ul>
+      </div>
+      <main>
+        {/* Your main content goes here */}
+      </main>
+      <footer id="footer">
+        <div className="footer-container">
+          <div className="footer-content">
+            {/* Footer content goes here */}
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+export default App;
+<style></style>
