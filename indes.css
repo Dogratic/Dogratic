@@ -1,0 +1,36 @@
+body {
+    background-color: coral  ;
+}
+
+.container {
+    height: 118px;
+    width: 2000px;
+     }
+ 
+ header {
+    background-color: gray;
+    height: 118px;
+    width: 1000px;
+    text-align: center;
+ }
+ nav {
+    background-color: red;
+    height: 40px;
+    width: 1000px;
+ }
+
+ main {
+    background-color: orange;
+    height: 400px;
+    width: 1000px;
+ }
+ footer {
+    background-color: greenyellow;
+    height: 100px;
+    width: 1000px;
+ }
+ h1 {
+    font-size: 84px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+ }
