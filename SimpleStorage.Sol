@@ -1,0 +1,39 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.19;
+// pragma solidity ^0.8.0;
+// pragma solidity >=0.8.0 <0.9.0;
+
+contract simplestorage {
+     //basic types: boolean, unit, int, address, bytes
+     //bool hasfavoritenumber = true;
+     //uint256 favoritenumber; //0
+     //string favoritenumerintext = "eighty-eight";
+     //int256 favoriteint = -88;
+     //address myaddress = add address of wallet here;
+     //bytes23 favoritebytes32 = "cat";
+     uint256 public myfavoritenumber; //0
+
+//unit256[] listoffavoritenumbers;
+struct person{
+    uint256 favoritenumber;
+    string name;
+}
+
+// uint256[] public anArray;
+    person[] public listOfPeople;
+
+    mapping(string => uint256) public nameToFavoriteNumber;
+
+function store(uint256 _favoritenumber) public {
+    myfavoritenumber = _favoritenumber;
+}
+//view, pure
+function RETRIEVE () public view returns(uint256){
+    return myfavoritenumber; 
+}
+
+ function addPerson(string memory _name, uint256 _favoriteNumber) public {
+        listOfPeople.push(person(_favoriteNumber, _name));
+        nameToFavoriteNumber[_name] = _favoriteNumber;
+    }
+}
