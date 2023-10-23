@@ -1,0 +1,282 @@
+//Thank you Brian Holt//
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Masters</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .page {
+    display: grid;
+    row-gap: 30px;
+    column-gap: 30px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    grid-template-areas:
+      "order payment"
+      "total total";
+    grid-template-columns: 1fr 1fr;;
+  }
+  
+  .main-nav {
+    background-color: #43281c;
+    color: #fbf2c0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+  }
+  
+  .logo {
+    height: 25px;
+    position: relative;
+    top: 3px;
+  }
+  
+  .box {
+    background-color: #eee1d5;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .box-title {
+    color: #885a2d;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  
+  .order {
+    grid-area: order;
+  }
+  
+  .payment {
+    grid-area: payment;
+  }
+  
+  .total {
+    grid-area: total;
+  }
+  
+  .items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item {
+    border-bottom: 2px solid #DDB892;
+    display: grid;
+  
+    padding: 10px 0;
+    
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-areas: 
+      "quantity title   price"
+      "quantity options price";
+  
+    row-gap: 8px;
+  
+  }
+  
+  .item:last-child {
+    border-bottom: none;
+  }
+  
+  .item-quantity {
+    grid-area: quantity;
+  }
+  
+  .item-title {
+    grid-area: title;
+    font-weight: bold;
+  }
+  
+  .item-price {
+    grid-area: price;
+    font-weight: bold;
+  }
+  
+  .item-options-list {
+    grid-area: options;
+    color: #B08968;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .item-option {
+    margin-bottom: 5px;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .user-input {
+    background-color: rgba(0,0,0,0);
+    border: 2px #885a2d solid;
+    padding: 8px;
+    border-radius: 100px;
+    width: 100%;
+    text-indent: 18px;
+    font-size: 18px;
+  }
+  
+  .user-input-label {
+    color: #885a2d;
+    background-color: #eee1d5;
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0 2px;
+  }
+  
+  .short-input {
+    max-width: 200px;
+  }
+  
+  .total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .totals-table {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 30px;
+  }
+  
+  .totals-table td {
+    padding: 10px;
+  }
+  
+  .totals-table td:last-child {
+    text-align: right;
+  }
+  
+  .final-totals {
+    font-weight: bold;
+  }
+  
+  .checkout {
+    background-color: #deb993;
+    border: none;
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 100px;
+    font-size: 16px;
+  } </html>
+</style>
+  <body>
+    <nav class="main-nav">
+      <h1 class="brand">
+        <img
+          src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png"
+          alt="coffee masters logo"
+          class="logo"
+        />
+        Coffee Masters
+      </h1>
+    </nav>
+    <div class="page">
+      <section class="order box">
+        <h2 class="box-title">ITEMS</h2>
+        <ul class="items">
+          <li class="item">
+            <div class="item-quantity">1x</div>
+            <div class="item-title">Cappucino</div>
+            <div class="item-price">$6.00</div>
+            <ul class="item-options-list">
+              <li class="item-option">Light Foam</li>
+            </ul>
+          </li>
+          <li class="item">
+            <div class="item-quantity">1x</div>
+            <div class="item-title">Cappucino</div>
+            <div class="item-price">$7.90</div>
+            <ul class="item-options-list">
+              <li class="item-option">Almond Milk</li>
+              <li class="item-option">Double Espresso Shot</li>
+            </ul>
+          </li>
+          <li class="item">
+            <div class="item-quantity">1x</div>
+            <div class="item-title">Croissant</div>
+            <div class="item-price">$5.37</div>
+            <ul class="item-options-list">
+              <li class="item-option">Butter</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="payment">
+        <div class="name-box box">
+          <h2 class="box-title">NAME</h2>
+          <div class="input-group">
+            <label class="user-input-label" for="name">Name for order</label>
+            <input type="text" class="user-input" id="name" />
+          </div>
+        </div>
+        <div class="cc-box box">
+          <h2 class="box-title">PAYMENT</h2>
+          <div class="input-group">
+            <label class="user-input-label" for="cc">Card number</label>
+            <input type="text" class="user-input" id="cc" />
+          </div>
+          <div class="input-group">
+            <label class="user-input-label" for="ccv">CCV number</label>
+            <input type="text" class="user-input short-input" id="ccv" />
+          </div>
+        </div>
+      </section>
+      <section class="total">
+        <table class="totals-table">
+          <tbody>
+            <tr>
+              <td>Subtotal:</td>
+              <td>$19.27</td>
+            </tr>
+            <tr>
+              <td>Tax:</td>
+              <td>$0.96</td>
+            </tr>
+            <tr class="final-totals">
+              <td>Total:</td>
+              <td>$20.23</td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="checkout" type="button">Place order</button>
+      </section>
+    </div>
+  </body>
+</html>
